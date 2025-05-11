@@ -16,4 +16,4 @@ jobs:
       run:  mvn -B verify sonar:sonar -Dsonar.projectKey=sonar-demo-org-may-sonal_sonar-demo-project-may -Dsonar.organization=sonar-demo-org-may-sonal -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=${{ secrets.SONAR_TOKEN }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_TOKEN: e05a3b5fb8534045639403b8429d4e2a5677c7ce
