@@ -1,4 +1,4 @@
-demonode(){
+mydemonode(){
 	
 	def mvnHome = tool 'MavenBuildTool'
 	def sonarScannerHome = tool 'Scanner'
